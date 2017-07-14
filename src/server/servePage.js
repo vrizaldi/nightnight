@@ -33,6 +33,7 @@ export default function servePage(req, res) {
 
 			<title></title>
 			<meta name="author" content="vrizaldi">
+			<link id="favicon" rel="icon" href="/favicon.png">
 
 			<link href="/bootstrap.min.css" rel="stylesheet">
 			<link href="/index.min.css" rel="stylesheet">

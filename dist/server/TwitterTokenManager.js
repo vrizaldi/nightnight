@@ -49,7 +49,7 @@ var TwitterTokenManager = function () {
 			this.__twitter = new _nodeTwitterApi2.default({
 				consumerKey: _TwitterAuth2.default.client_id,
 				consumerSecret: _TwitterAuth2.default.client_secret,
-				callback: "http://127.0.0.1:21701/login"
+				callback: "https://murmuring-escarpment-21704.herokuapp.com/login"
 			});
 		}
 	}, {

@@ -31,7 +31,7 @@ export default function servePage(req, res) {
 		<head>
 			<meta charset="utf-8">
 
-			<title></title>
+			<title>Night Night</title>
 			<meta name="author" content="vrizaldi">
 			<link id="favicon" rel="icon" href="/favicon.png">
 

@@ -2,12 +2,20 @@ body {
 	padding: 5.5em 1em 0 1em;
 	margin: 0;
 	height: 5em;
-	background-color: #1D1B1D;
 	color: white;
+	background-image: url("/background.jpeg");
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-color: #fff;
+}
+
+main {
+	background-color: rgb(0, 0, 0, 0);
 }
 
 .navbar.fixed-top {
-	background-color: #a3339f;
+	background-color: rgb(255, 255, 255, 0.2);
+	border-bottom: 3px solid #fff;
 }
 
 .nav-item {
@@ -21,12 +29,26 @@ body {
 #title {
 	text-align: center;
 	font-size: 4em;
+	color: #E69CE3;
+	font-family: 'Dancing Script', cursive;
 }
 
 #search-form {
-	width: 90%;
+	width: auto;
+	text-align: center;
 	display: block;
-	margin-left: auto;
+}
+
+#search-form input {
+	background-color: inherit;
+	margin: auto;
+	border-color: #fff;
+	color: #fff;
+}
+
+#loading-indicator {
+	margin: 1em 0 0 0;
+	text-align: center;
 }
 
 a {
@@ -43,20 +65,34 @@ a:hover {
 	width: 80%;
 }
 
+#venue-list {
+	margin: 3em 0 0 0;
+}
+
 .venue {
-	border-bottom: 1px dashed white;
+	border-bottom: 2px solid white;
 	padding: 1.2em;
 	background-color: inherit;
 }
 
 .venue:hover {
-	background-color: #482047;
+	background-color: rgb(255, 255, 255, 0.2);
+}
+
+.venue-name {
+	font-family: 'Dancing Script', cursive;
 }
 
 .venue-img {
 	max-width: 100%;
 	max-height: 100%;
+	border: 5px solid #fff;
 }
+
+.venue-info {
+	list-style: none;
+}
+
 #credit {
 	font-size: 0.8em;
 	float: right;

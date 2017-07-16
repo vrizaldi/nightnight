@@ -33,7 +33,7 @@ import Button from "../components/Button";
 									className="nav-link nav-item" 
 									href="/login_twitter"
 								>
-									<Button className="btn btn-primary" label="Login with Twitter"/>
+									<Button className="btn btn-outline-primary" label="Login with Twitter"/>
 								</a>
 							)
 						}

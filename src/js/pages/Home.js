@@ -40,15 +40,18 @@ import VenueList from "../components/VenueList";
 					<Input id="location" className="form-control"
 						label="Enter your location here:" />
 					<Button id="scan-button"
-						className="btn btn-success"
+						className="btn btn-outline-success"
 						label="Scan it!"
 						onClick={this.scan.bind(this)}/>
 				</div>
 
 				{	
 					// if loading
-					this.props.status == "fetching" ? 
-						(<p>Scanning area...</p>) : ""
+					this.props.status == "fetching" ? (
+						<p id="loading-indicator">
+							<i className="fa fa-spinner fa-pulse fa-4x"/>
+						</p>
+					) : ""
 				}
 
 				{

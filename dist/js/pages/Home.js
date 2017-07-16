@@ -85,7 +85,7 @@ var Home = (_dec = (0, _reactRedux.connect)(function (store) {
 					_react2.default.createElement(_Input2.default, { id: "location", className: "form-control",
 						label: "Enter your location here:" }),
 					_react2.default.createElement(_Button2.default, { id: "scan-button",
-						className: "btn btn-success",
+						className: "btn btn-outline-success",
 						label: "Scan it!",
 						onClick: this.scan.bind(this) })
 				),
@@ -93,8 +93,8 @@ var Home = (_dec = (0, _reactRedux.connect)(function (store) {
 				// if loading
 				this.props.status == "fetching" ? _react2.default.createElement(
 					"p",
-					null,
-					"Scanning area..."
+					{ id: "loading-indicator" },
+					_react2.default.createElement("i", { className: "fa fa-spinner fa-pulse fa-4x" })
 				) : "",
 				this.props.businesses.length == 0 ? "" : _react2.default.createElement(_VenueList2.default, {
 					goingTo: this.goingTo.bind(this),

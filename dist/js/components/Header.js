@@ -70,7 +70,7 @@ var Header = (_dec = (0, _reactRedux.connect)(function (store) {
 								className: "nav-link nav-item",
 								href: "/login_twitter"
 							},
-							_react2.default.createElement(_Button2.default, { className: "btn btn-primary", label: "Login with Twitter" })
+							_react2.default.createElement(_Button2.default, { className: "btn btn-outline-primary", label: "Login with Twitter" })
 						)
 					)
 				)

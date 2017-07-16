@@ -51,7 +51,7 @@ main {
 	text-align: center;
 }
 
-a {
+a, a:visited, a:focus {
 	color: white;
 	text-decoration: none;
 }

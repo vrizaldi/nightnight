@@ -85,7 +85,7 @@ var Home = (_dec = (0, _reactRedux.connect)(function (store) {
 					_react2.default.createElement(_Input2.default, { id: "location", className: "form-control",
 						label: "Enter your location here:" }),
 					_react2.default.createElement(_Button2.default, { id: "scan-button",
-						className: "btn btn-outline-success",
+						className: "btn btn-success",
 						label: "Scan it!",
 						onClick: this.scan.bind(this) })
 				),

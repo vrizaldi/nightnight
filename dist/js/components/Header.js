@@ -49,7 +49,7 @@ var Header = (_dec = (0, _reactRedux.connect)(function (store) {
 		value: function render() {
 			return _react2.default.createElement(
 				"header",
-				{ className: "navbar fixed-top" },
+				{ className: "navbar" },
 				_react2.default.createElement(
 					"div",
 					{ className: "row" },

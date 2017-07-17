@@ -40,7 +40,7 @@ import VenueList from "../components/VenueList";
 					<Input id="location" className="form-control"
 						label="Enter your location here:" />
 					<Button id="scan-button"
-						className="btn btn-outline-success"
+						className="btn btn-success"
 						label="Scan it!"
 						onClick={this.scan.bind(this)}/>
 				</div>

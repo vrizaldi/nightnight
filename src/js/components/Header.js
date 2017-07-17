@@ -14,7 +14,7 @@ import Button from "../components/Button";
 
 	render() {
 		return(
-			<header className="navbar fixed-top">
+			<header className="navbar">
 				<div className="row">
 					<div id="logo" className="col-md-3">
 						
